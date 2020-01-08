@@ -13,5 +13,5 @@ end
 
 def print_first_directors_movie_titles
 binding.pry 
-pp directors_database
+#pp directors_database
 end 
