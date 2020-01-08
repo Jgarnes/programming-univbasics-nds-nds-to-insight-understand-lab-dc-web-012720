@@ -1,6 +1,6 @@
 require 'yaml'
 require 'pry'
-
+require 'pp'
 def directors_database
 binding.pry 
 	rot13 = -> (s) { s.tr('A-Za-z', 'N-ZA-Mn-za-m') }
