@@ -13,5 +13,11 @@ end
 
 def print_first_directors_movie_titles
 binding.pry 
-#pp directors_database
+
+i = 0 
+while i < directors_database[0][:movies].length do
+  movie_title = directors_database[0][:movies][i][:title]
+  puts movie_title
+ i += 1
+ end
 end 
