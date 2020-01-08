@@ -3,7 +3,7 @@ require 'directors_database'
 require 'pp'
 # Call the method directors_database to retrieve the NDS
 
-directors_database
+pp directors_database
 
 require 'pp'
 def pretty_print_nds(nds)
