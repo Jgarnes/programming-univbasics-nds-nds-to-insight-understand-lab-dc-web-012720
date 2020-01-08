@@ -12,6 +12,8 @@ end
 require 'pp'
 def print_first_directors_movie_titles
 
+row_index = 0 
+while row_index < array.length 
 
 pp directors_database
 end 
