@@ -11,7 +11,7 @@ end
 
 require 'pp'
 def print_first_directors_movie_titles
-directors_database[array][hash]
+
 
 pp directors_database
 end 
